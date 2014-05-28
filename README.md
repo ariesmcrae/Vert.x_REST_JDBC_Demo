@@ -53,9 +53,9 @@ or
 * Avg 12ms response time.
 * 240 transactions per second.
 
-![100 concurrent users](https://github.com/ariesmcrae/Vert.x_REST_JDBC_Demo/blob/master/EmployeeService/perf/100_users.png)
+![100 concurrent users](https://raw.githubusercontent.com/ariesmcrae/Vert.x_REST_JDBC_Demo/master/EmployeeService/perf/100_users.png)
 
-![1000 concurrent users](https://github.com/ariesmcrae/Vert.x_REST_JDBC_Demo/blob/master/EmployeeService/perf/1000_users.png)
+![1000 concurrent users](https://raw.githubusercontent.com/ariesmcrae/Vert.x_REST_JDBC_Demo/master/EmployeeService/perf/1000_users.png)
 
 ## VM Profile
 
