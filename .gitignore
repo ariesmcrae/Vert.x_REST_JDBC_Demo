@@ -1,0 +1,17 @@
+#.settings .gradle .classpath .project bin build mods
+.DS_Store
+.idea
+.yardoc
+.yardopts
+target
+out
+*.iml
+*.ipr
+*.iws
+test-output
+Scratch.java
+ScratchTest.java
+test-results
+test-tmp
+*.class
+

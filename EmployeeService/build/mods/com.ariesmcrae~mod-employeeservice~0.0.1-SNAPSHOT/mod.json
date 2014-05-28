@@ -1,0 +1,5 @@
+{
+	"main": "app.js",	
+	"auto-redeploy": true,
+	"deploys":"io.vertx~lang-rhino~2.0.0-final"
+}

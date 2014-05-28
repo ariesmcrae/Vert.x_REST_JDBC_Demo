@@ -1,0 +1,35 @@
+{
+  	"jdbc_persistor_config" : {
+		"address"  : "vertx.jdbcpersistor",
+		
+		"driver"   : "com.ibm.db2.jcc.DB2Driver",
+		"url"      : "jdbc:db2://your_db2_host:your_db2_port/your_db2_schema",
+
+		"username" : "your_db2_username",
+		"password" : "your_db2_password",
+		
+		"pmdKnownBroken" : "no",
+
+		//Pool settings
+		"minpool"  : 10,
+		"maxpool"  : 30,
+		"acquire"  : 10,
+		
+		//Defaults
+		"batchtimeout"       : 5000,
+		"transactiontimeout" : 10000
+		
+		//c3p0.automaticTestTable
+		//c3p0.idleConnectionTestPeriod
+		//c3p0.preferredTestQuery
+		//c3p0.testConnectionOnCheckin
+		//c3p0.testConnectionOnCheckout
+		//c3p0.acquireRetryAttempts
+		//c3p0.acquireRetryDelay		
+  	},
+  	
+  	"webserver_config" : {
+		"port"  : 8888,
+		"host"   : "localhost"
+  	}  	
+}
